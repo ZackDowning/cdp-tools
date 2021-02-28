@@ -492,7 +492,7 @@ main(int argc, char* argv[])
 				cdp_capset |= CDP_CAP_B;
 			} else if (strcasecmp(optarg, "s") == 0) {
 				cdp_capset |= CDP_CAP_S;
-			} else if (strcasecmp(optarg, "j") == 0) {
+			} else if (strcasecmp(optarg, "h") == 0) {
 				cdp_capset |= CDP_CAP_H;
 			} else if (strcasecmp(optarg, "i") == 0) {
 				cdp_capset |= CDP_CAP_I;
